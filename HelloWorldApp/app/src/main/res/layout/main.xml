@@ -14,7 +14,9 @@
 	<EditText
 		android:id="@+id/edit_message"
 		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"/>
+		android:layout_height="wrap_content"
+		android:inputType="text"
+		android:imeOptions="actionSend"/>
 
 	<Button
 		android:text="@string/button_submit"
