@@ -4,6 +4,7 @@ import android.app.*;
 import android.os.*;
 import android.content.*;
 import android.widget.*;
+import android.view.*;
 
 public class DisplayActivity extends Activity
 {
@@ -19,4 +20,8 @@ public class DisplayActivity extends Activity
 		TextView textView = (TextView)findViewById(R.id.display_message);
 		textView.setText(message);
     }
+	
+	public void back(View view) {
+		finish();
+	}
 }
